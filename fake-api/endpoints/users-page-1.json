@@ -1,0 +1,37 @@
+{
+  "links": {
+    "self": "http://localhost:9011/users-page-1",
+    "next": "http://localhost:9011/users-page-2"
+  },
+  "data": [{
+    "type": "users",
+    "id": "1",
+    "attributes": {
+      "name": "Karianne Ortiz"
+    }
+  }, {
+    "type": "users",
+    "id": "2",
+    "attributes": {
+      "name": "Ms. John Gibson"
+    }
+  }, {
+    "type": "users",
+    "id": "3",
+    "attributes": {
+      "name": "Reymundo Langworth III"
+    }
+  }, {
+    "type": "users",
+    "id": "4",
+    "attributes": {
+      "name": "Dr. Vincent Vandervort"
+    }
+  }, {
+    "type": "users",
+    "id": "5",
+    "attributes": {
+      "name": "Arnulfo Fisher"
+    }
+  }]
+}

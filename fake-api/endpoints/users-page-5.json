@@ -1,0 +1,38 @@
+{
+  "links": {
+    "self": "http://localhost:9011/users-page-5",
+    "prev": "http://localhost:9011/users-page-4",
+    "next": "http://localhost:9011/users-page-6"
+  },
+  "data": [{
+    "type": "users",
+    "id": "21",
+    "attributes": {
+      "name": "Cruz Bartell"
+    }
+  }, {
+    "type": "users",
+    "id": "22",
+    "attributes": {
+      "name": "Onie Witting DDS"
+    }
+  }, {
+    "type": "users",
+    "id": "23",
+    "attributes": {
+      "name": "Ima McClure"
+    }
+  }, {
+    "type": "users",
+    "id": "24",
+    "attributes": {
+      "name": "Michele Mante"
+    }
+  }, {
+    "type": "users",
+    "id": "25",
+    "attributes": {
+      "name": "Ahmad Wintheiser"
+    }
+  }]
+}

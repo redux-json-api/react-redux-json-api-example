@@ -1,0 +1,38 @@
+{
+  "links": {
+    "self": "http://localhost:9011/users-page-2",
+    "prev": "http://localhost:9011/users-page-1",
+    "next": "http://localhost:9011/users-page-3"
+  },
+  "data": [{
+    "type": "users",
+    "id": "6",
+    "attributes": {
+      "name": "Leonie Daugherty"
+    }
+  }, {
+    "type": "users",
+    "id": "7",
+    "attributes": {
+      "name": "Kiera Lebsack"
+    }
+  }, {
+    "type": "users",
+    "id": "8",
+    "attributes": {
+      "name": "Catharine Effertz"
+    }
+  }, {
+    "type": "users",
+    "id": "9",
+    "attributes": {
+      "name": "Pinkie Waelchi"
+    }
+  }, {
+    "type": "users",
+    "id": "10",
+    "attributes": {
+      "name": "Bertram Kohler Sr."
+    }
+  }]
+}

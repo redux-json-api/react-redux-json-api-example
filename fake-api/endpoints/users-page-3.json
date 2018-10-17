@@ -1,0 +1,38 @@
+{
+  "links": {
+    "self": "http://localhost:9011/users-page-3",
+    "prev": "http://localhost:9011/users-page-2",
+    "next": "http://localhost:9011/users-page-4"
+  },
+  "data": [{
+    "type": "users",
+    "id": "11",
+    "attributes": {
+      "name": "Halie Stoltenberg V"
+    }
+  }, {
+    "type": "users",
+    "id": "12",
+    "attributes": {
+      "name": "Oscar Schroeder"
+    }
+  }, {
+    "type": "users",
+    "id": "13",
+    "attributes": {
+      "name": "Danika O'Reilly"
+    }
+  }, {
+    "type": "users",
+    "id": "14",
+    "attributes": {
+      "name": "Mabelle Gutmann"
+    }
+  }, {
+    "type": "users",
+    "id": "15",
+    "attributes": {
+      "name": "Carlotta Conn"
+    }
+  }]
+}

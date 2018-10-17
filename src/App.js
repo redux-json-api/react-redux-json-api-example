@@ -17,14 +17,22 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Provider store={store}>
-          <Query endpoint="/authors">
-            {({ loading, resources }) => (
-              loading ? 'Loading' : (
-                resources.map(({ id, attributes: { name } }) => (
-                  <div key={id}>{name}</div>
-                ))
-              )
-            )}
+          <Query endpoint="/users" enableCache>
+            {({ loading, links, resources }) => {
+              if (loading) return 'Loading';
+              console.log(links);
+
+              return (
+                <div>
+                  <h1>Users</h1>
+                  {resources.map(({ id, attributes: { name } }) => (
+                    <div key={id}>{name}</div>
+                  ))}
+                  {links.prev && <button onClick={links.prev.load}>Prev</button>}
+                  {links.next && <button onClick={links.next.load}>Next</button>}
+                </div>
+              );
+            }}
           </Query>
         </Provider>
       </div>

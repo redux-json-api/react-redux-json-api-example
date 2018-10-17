@@ -23,7 +23,7 @@ export default createStore(
   reducers,
   composeEnhancers(
     applyMiddleware(
-      configureReduxJsonApi('http://jsonapiplayground.reyesoft.com/v2/'),
+      configureReduxJsonApi('http://localhost:9011/'),
       thunk
     )
   )

@@ -1,0 +1,38 @@
+{
+  "links": {
+    "self": "http://localhost:9011/users-page-4",
+    "prev": "http://localhost:9011/users-page-3",
+    "next": "http://localhost:9011/users-page-5"
+  },
+  "data": [{
+    "type": "users",
+    "id": "16",
+    "attributes": {
+      "name": "Amina Schaden"
+    }
+  }, {
+    "type": "users",
+    "id": "17",
+    "attributes": {
+      "name": "Mrs. Cyrus Donnelly"
+    }
+  }, {
+    "type": "users",
+    "id": "18",
+    "attributes": {
+      "name": "Jerod Kulas"
+    }
+  }, {
+    "type": "users",
+    "id": "19",
+    "attributes": {
+      "name": "Davion Robel V"
+    }
+  }, {
+    "type": "users",
+    "id": "20",
+    "attributes": {
+      "name": "Magdalena Heidenreich"
+    }
+  }]
+}

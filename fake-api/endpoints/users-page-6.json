@@ -1,0 +1,38 @@
+{
+  "links": {
+    "self": "http://localhost:9011/users-page-6",
+    "prev": "http://localhost:9011/users-page-5",
+    "next": "http://localhost:9011/users-page-7"
+  },
+  "data": [{
+    "type": "users",
+    "id": "26",
+    "attributes": {
+      "name": "Leone Rau"
+    }
+  }, {
+    "type": "users",
+    "id": "27",
+    "attributes": {
+      "name": "Austen Eichmann"
+    }
+  }, {
+    "type": "users",
+    "id": "28",
+    "attributes": {
+      "name": "Mr. Germaine Franecki"
+    }
+  }, {
+    "type": "users",
+    "id": "29",
+    "attributes": {
+      "name": "Sadye Ledner"
+    }
+  }, {
+    "type": "users",
+    "id": "30",
+    "attributes": {
+      "name": "Laverna Cronin"
+    }
+  }]
+}
