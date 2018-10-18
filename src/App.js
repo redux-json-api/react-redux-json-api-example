@@ -18,13 +18,13 @@ class App extends Component {
         </p>
         <Provider store={store}>
           <Query endpoint="/users" enableCache>
-            {({ loading, links, resources }) => {
+            {({ loading, links, refetch, resources }) => {
               if (loading) return 'Loading';
               console.log(links);
 
               return (
                 <div>
-                  <h1>Users</h1>
+                  <h1>Users</h1> <button onClick={refetch}>Refetch</button>
                   {resources.map(({ id, attributes: { name } }) => (
                     <div key={id}>{name}</div>
                   ))}
